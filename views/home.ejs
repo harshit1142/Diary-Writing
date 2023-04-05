@@ -1,0 +1,19 @@
+<%- include('partial/header'); -%>
+<h1 id="txt"><%=page%></h1>
+
+<p id="sen"><%=content %></p>
+
+<a href="/compose" id="btn">Add Post</a>
+
+<%  posts.forEach(function(post){ %>
+<%const suff=post.content.substring(0,100); %>
+  <h1 id="txt"><%=post.title%></h1>
+  <p id="sen">
+  <%=suff%>
+  <a id="btn" href="/posts/<%=post.id%>">Read More</a>
+  </p>
+
+  <% }) %>
+
+
+

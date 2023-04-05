@@ -1,0 +1,12 @@
+<%- include('partial/header'); -%>
+
+<h1>Compose</h1>
+
+<form action="/compose" method="post">
+    <h3>Title :</h3>
+  <input type="text" name="txt" id="txt" autocomplete="off">
+    <h3>Post :</h3>
+     <textarea name="sentence" id="sen" cols="30" rows="10"></textarea>
+    <button type="submit" name="btn" id="btn">Publish</button>
+</form>
+
