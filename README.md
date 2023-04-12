@@ -16,7 +16,7 @@
   <a href="#credits">Credits</a> •
 </p>
 
-![screenshot]()
+![screenshot](https://github.com/harshit1142/Diary-Writing/blob/main/vid.gif)
 
 ## Key Features
 
@@ -30,10 +30,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone 
+$ git clone https://github.com/harshit1142/Diary-Writing.git
 
 # Go into the repository
-$ cd 
+$ cd folder_Name
 
 # Install dependencies
 $ npm install
@@ -55,7 +55,6 @@ This software uses the following open source packages:
 - [Node.js](https://nodejs.org/)
 - [Mongodb](https://www.mongodb.com/)
 - [Mongoose](https://mongoosejs.com/)
-- [Passport](https://www.passportjs.org/)
 
 
 > GitHub [@harshit1142](https://github.com/harshit1142) &nbsp;&middot;&nbsp;
